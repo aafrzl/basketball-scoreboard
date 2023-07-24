@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Basketball Scoreboard</title>
+  <meta name="description" content="Basketball Scoreboard App build with HTML, CSS & JAVASCRIPT">
+</head>
+
+<body>
+  <div class="container">
+    <div class="column">
+      <h3>HOME</h3>
+      <h4 id="score-home" class="home-score">0</h4>
+      <div>
+        <button onclick="homePlusOne()" type="button">+1</button>
+        <button onclick="homePlusTwo()" type="button">+2</button>
+        <button onclick="homePlusThree()" type="button">+3</button>
+      </div>
+    </div>
+    <div class="column">
+      <h3>GUEST</h3>
+      <h4 id="score-guest" class="guest-score">0</h4>
+      <div>
+        <button onclick="guestPlusOne()" type="button">+1</button>
+        <button onclick="guestPlusTwo()" type="button">+2</button>
+        <button onclick="guestPlusThree()" type="button">+3</button>
+      </div>
+    </div>
+  </div>
+  <button onclick="btnReset()" type="button">NEW GAME</button>
+  <div class="container">
+    <h2 id="information"></h2>
+  </div>
+  <script src="index.js"></script>
+</body>
+<script src="index.js"></script>
+
+</html>

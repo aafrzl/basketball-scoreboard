@@ -1,0 +1,109 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body {
+  text-align: center;
+  background-color: #1b244a;
+  margin: 100px auto;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  color: #9aabd8;
+  border: 1px solid #9aabd8;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 1em;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+#information {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+  width: 200px;
+  border: 2px solid #4195fc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  display: none;
+}
+
+.home-score {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  background: #080001;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #4195fc;
+}
+
+.guest-score {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  background: #080001;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #4195fc;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#btn-reset {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid cyan;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+#btn-reset:hover {
+  background-color: #4195fc;
+  box-shadow: 5px 5px 10px #4195fc;
+}
+
+button:hover {
+  background: #4195fc;
+  box-shadow: 5px 5px 10px #4195fc;
+  color: white;
+}
